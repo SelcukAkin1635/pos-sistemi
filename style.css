@@ -1,0 +1,413 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: url("anaresim.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Başlık */
+h2 {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Login ekranı */
+.login-box {
+  width: 90%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9); /* saydam beyaz */
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3); /* gölge efekti */
+}
+
+.login-box input,
+.login-box button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+.login-box button {
+  background: #4e73df;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-box button:hover {
+  background: #2e59d9;
+}
+
+/* Masa grid */
+.masa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.masa {
+  padding: 50px 0;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  touch-action: manipulation;
+}
+
+.masa:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.masa.bos { background:#1cc88a; }     /* yeşil */
+.masa.dolu { background:#e74a3b; }    /* kırmızı */
+.masa.bekliyor { background:#f6c23e; color:#000; } /* sarı */
+
+/* Çıkış butonu */
+a {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+  background: #4e73df;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover {
+  background: #2e59d9;
+}
+
+/* Kasiyer için modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.order-summary {
+  max-height: 250px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Numpad */
+.numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.numpad button {
+  padding: 25px;
+  font-size: 22px;
+  border-radius: 12px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.numpad button:hover {
+  background: #ddd;
+}
+
+.pay-btn {
+  background: #1cc88a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cancel-btn {
+  background: #e74a3b;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Adisyon ekranı */
+.adisyon-container {
+  max-width: 95%;
+  margin: 20px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.adisyon-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Kategori barı */
+.kategori-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kategori-btn {
+  padding: 14px 24px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background 0.3s;
+  touch-action: manipulation;
+}
+
+.kategori-btn:hover {
+  background: #ddd;
+}
+
+.kategori-btn.aktif {
+  background: #4e73df;
+  color: white;
+}
+
+/* Ürün grid */
+.urun-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.urun-btn {
+  background: #fff;
+  border: 2px solid #4e73df;
+  border-radius: 12px;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  min-height: 100px;
+}
+
+.urun-btn:hover {
+  background: #4e73df;
+  color: #fff;
+}
+
+/* Sipariş listesi */
+.siparis-box {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.siparis-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.siparis-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+}
+
+.siparis-list li strong {
+  color: #e74a3b;
+  min-width: 80px;
+  text-align: right;
+}
+
+/* Sil butonu */
+.delete-btn {
+  margin-left: 10px;
+  color: red;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+/* Siparişi Onayla */
+.btn-confirm {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 16px 30px;
+  background: #1cc88a;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-confirm:hover {
+  background: #17a673;
+}
+
+/* Geri dön butonu */
+.btn-back {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 16px 30px;
+  background: #4e73df;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.btn-back:hover {
+  background: #2e59d9;
+}
+/* Modal arka planı */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal içeriği */
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  max-width: 95%;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+/* Başlık */
+.modal-content h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Adet göstergesi */
+.adet-display {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+  padding: 12px;
+  border: 2px solid #4e73df;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+/* Numpad grid */
+.numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.numpad button {
+  padding: 18px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.numpad button:hover {
+  background: #ddd;
+}
+
+/* Onay & İptal butonları */
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-cancel {
+  background: #e74a3b;
+  color: #fff;
+}
+
+.btn-cancel:hover {
+  background: #c0392b;
+}
+
+.btn-confirm {
+  background: #1cc88a;
+  color: #fff;
+}
+
+.btn-confirm:hover {
+  background: #17a673;
+}

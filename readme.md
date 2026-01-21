@@ -1,0 +1,54 @@
+MÜNHASIR MÜLKİYET, GİZLİLİK VE KULLANIM MENİ SÖZLEŞMESİ
+(PROPRIETARY SOFTWARE LICENSE AND NON-DISCLOSURE AGREEMENT)
+
+TELİF HAKKI SAHİBİ (LİSANS VEREN): Selçuk Akın
+TARİH: 22 Ocak 2026
+YETKİ ALANI: Türkiye Cumhuriyeti Kanunları ve Uluslararası Telif Sözleşmeleri
+
+1. TARAFLAR VE HUKUKİ NİTELİK
+İşbu yasal metin, Selçuk Akın ("HAK SAHİBİ") tarafından geliştirilen, kodlanan ve tasarlanan tüm yazılım varlıklarını, kaynak kodlarını, algoritmaları, veritabanı şemalarını ve görsel arayüzleri ("ESER") kapsar. ESER, halka açık bir platformda (GitHub vb.) barındırılıyor olsa dahi, "Kamusal Alan" (Public Domain) malı değildir ve Açık Kaynak Kod (Open Source) statüsünde değerlendirilemez. Bu metni okuyan veya bu depoya (repository) erişen her gerçek veya tüzel kişi ("KULLANICI"), aşağıdaki hükümleri peşinen kabul etmiş sayılır.
+
+2. FİKRİ MÜLKİYET VE YASAL DAYANAK
+Bu ESER, Türkiye Cumhuriyeti Anayasası'nın 64. Maddesi ve 5846 Sayılı Fikir ve Sanat Eserleri Kanunu ("FSEK") uyarınca koruma altındadır.
+
+   2.1. ESER SAHİPLİĞİ:
+   FSEK Madde 1/B ve Madde 2/1 bentleri uyarınca, bu yazılım bir "İlim ve Edebiyat Eseri" niteliğinde olup, eser üzerindeki tüm mali ve manevi haklar münhasıran Selçuk Akın'a aittir.
+
+   2.2. MALİ HAKLAR:
+   HAK SAHİBİ, FSEK'in 21. (İşleme), 22. (Çoğaltma), 23. (Yayma), 24. (Temsil) ve 25. (İşaret, Ses ve/veya Görüntü Nakline Yarayan Araçlarla Umuma İletim) maddelerinde düzenlenen tüm hakları kendi uhdesinde saklı tutar.
+
+3. KULLANIM YASAKLARI VE KISITLAMALAR
+KULLANICI, HAK SAHİBİ'nin önceden verilmiş yazılı ve ıslak imzalı izni olmaksızın aşağıdaki eylemlerden hiçbirini gerçekleştiremez. Aksine davranışlar, hukuki ve cezai takibat sebebidir.
+
+   3.1. KOPYALAMA VE ÇOĞALTMA YASAĞI:
+   Yazılımın kaynak kodlarının tamamı veya bir kısmı (snippet), başka bir bilgisayara, sunucuya veya depolama birimine indirilemez, kopyalanamaz ve arşivlenemez.
+
+   3.2. DEĞİŞTİRME VE TÜREV ESER YASAĞI (NO DERIVATIVE WORKS):
+   FSEK Madde 6 ve Madde 16 uyarınca, ESER üzerinde değişiklik yapmak, eklemeler çıkarmalar yapmak veya ESER'den faydalanarak yeni bir "İşlenme Eser" (Forking) oluşturmak kesinlikle yasaktır.
+
+   3.3. TERSİNE MÜHENDİSLİK YASAĞI (NO REVERSE ENGINEERING):
+   Yazılımın çalışma mantığını çözmek amacıyla tersine mühendislik (reverse engineering), kodu çözme (decompilation) veya kaynak koda dönüştürme (disassembly) işlemleri yapılamaz.
+
+   3.4. TİCARİ VE ŞAHSİ KULLANIM YASAĞI:
+   Bu yazılım ticari bir ürünün parçası olarak satılamaz, kiralanamaz, alt lisanslanamaz veya herhangi bir gelir modeli içerisinde kullanılamaz. Eğitim, ödev veya kişisel hobi amaçlı dahi olsa, HAK SAHİBİ'nin izni olmadan kodlar çalıştırılamaz.
+
+4. İHLAL HALİNDE CEZAİ VE HUKUKİ YAPTIRIMLAR
+İşbu sözleşme hükümlerine aykırı davranılması durumunda, HAK SAHİBİ aşağıdaki yasal yollara başvuracağını ihtaren bildirir:
+
+   4.1. CEZA DAVASI (HAPİS VE PARA CEZASI):
+   5846 Sayılı FSEK Madde 71 uyarınca; "Bir eseri, icrayı, fonogramı veya yapımı hak sahibi kişilerin yazılı izni olmaksızın işleyen, temsil eden, çoğaltan, değiştiren, dağıtan, her türlü işaret, ses veya görüntü nakline yarayan araçlarla umuma ileten, yayımlayan" kişiler hakkında 1 YILDAN 5 YILA KADAR HAPİS veya ADLİ PARA CEZASI talep edilecektir.
+
+   4.2. MADDİ VE MANEVİ TAZMİNAT:
+   FSEK Madde 68 uyarınca, izinsiz kullanım tespiti halinde, eserin rayiç bedelinin ÜÇ KATINA kadar tazminat talep edilecektir. Ayrıca FSEK Madde 70 uyarınca manevi tazminat davası açılacaktır.
+
+   4.3. BİLİŞİM SUÇLARI:
+   Yetkisiz erişim ve veri kopyalama eylemleri, 5237 Sayılı Türk Ceza Kanunu'nun (TCK) 243. ve 244. maddeleri ("Bilişim Sistemine Girme" ve "Sistemi Engelleme, Bozma, Verileri Yok Etme veya Değiştirme") kapsamında ayrıca şikayete konu edilecektir.
+
+5. SORUMLULUK REDDİ (DISCLAIMER)
+Bu yazılım "OLDUĞU GİBİ" (AS IS) sunulmaktadır. Selçuk Akın, yazılımın kullanımından doğabilecek herhangi bir veri kaybı, donanım hasarı veya güvenlik açığından sorumlu tutulamaz. Yazılımın incelenmesi riski tamamen KULLANICI'ya aittir.
+
+6. YETKİLİ MAHKEME VE İCRA DAİRELERİ
+İşbu metinden doğacak her türlü ihtilafın çözümünde Türk Hukuku uygulanacak olup, Türkiye Cumhuriyeti Mahkemeleri ve İcra Daireleri yetkilidir.
+
+Telif Hakkı © 2026 Selçuk Akın.
+TÜM HAKLARI SAKLIDIR.
